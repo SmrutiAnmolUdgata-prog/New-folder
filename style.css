@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:0px auto;
+    max-width: 900px;
+    justify-content: center;
+    border:2px solid black;
+}
+.container > div{
+    justify-self: center;
+}
+img{
+    height: 400px;
+    width:250px;
+    border:2px solid white;
+}
+p{
+    text-align: center;
+    color:white;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size:20px;
+}
+h1{
+    grid-column: span 3;
+    justify-self:center;
+    color:white;
+    border:2px solid white;
+    padding:10px;
+    box-shadow: 10px 10px black;
+}
+h1:hover{
+    color:rgb(200, 11, 11);
+    padding:20px;
+    border:2px solid red;
+}
+body{
+    background:url("https://wallpaper.dog/large/20389625.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+img:hover{
+    height: 450px;
+    width: 300px;
+    border:2px solid red;
+    border-radius: 20px;
+    transition: 1s ease;
+
+}
